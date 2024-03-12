@@ -20,7 +20,7 @@ const Text: React.FC<TextProps> = ({
 
   const style = `${baseStyle} ${sizeClasses[size]} ${color}`;
 
-  return <p className="leading-8 text-6 text-xl font-semibold">{content}</p>;
+  return <p className={style}>{content}</p>;
 };
 
 export default Text;
